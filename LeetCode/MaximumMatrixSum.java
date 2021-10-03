@@ -5,6 +5,7 @@ Aproach:
 1.If we have a zero anywhere we can use it to flip all negatives into positives.
 2.If we have even number of negatives, we can turn all negatives into positives.
 3.Otherwise, we turn the smallest absolute value into a negative, and everything else - into positives.
+ TC: O(n)
  */
 class Solution4{
     public long maxMatrixSum(int[][] matrix) {
